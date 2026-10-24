@@ -56,7 +56,7 @@ Master the art of creating your own specialized skills.
 
 ### Prerequisites
 
-- Python 3.8 or higher
+- Python 3.11 or higher
 - Anthropic API key ([get one here](https://console.anthropic.com/))
 - Jupyter Notebook or JupyterLab
 

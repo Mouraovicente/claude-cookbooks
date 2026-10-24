@@ -12,7 +12,7 @@ FROM python:3.11-slim
 # and the CLI so `query()` has a runtime to drive.
 RUN apt-get update \
  && apt-get install -y --no-install-recommends curl ca-certificates \
- && curl -fsSL https://deb.nodesource.com/setup_20.x | bash - \
+ && curl -fsSL https://deb.nodesource.com/setup_24.x | bash - \
  && apt-get install -y --no-install-recommends nodejs \
  && npm install -g @anthropic-ai/claude-code@2.1.140 \
  && apt-get purge -y curl \
